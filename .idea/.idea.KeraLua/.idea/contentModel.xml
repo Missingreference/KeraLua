@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="build/Android" t="IncludeRecursive">
+        <e p="KeraLua.Android.csproj" t="IncludeRecursive" />
+        <e p="libs" t="Include">
+          <e p="arm64-v8a" t="Include" />
+          <e p="armeabi-v7a" t="Include" />
+          <e p="x86" t="Include" />
+          <e p="x86_64" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="build/net45" t="IncludeRecursive">
+        <e p="KeraLua.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="build/TVOS" t="IncludeRecursive">
+        <e p="ApiDefinition.cs" t="Include" />
+        <e p="KeraLua.TVOS.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Structs.cs" t="Include" />
+      </e>
+      <e p="build/WatchOS" t="IncludeRecursive">
+        <e p="ApiDefinition.cs" t="Include" />
+        <e p="KeraLua.WatchOS.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Structs.cs" t="Include" />
+      </e>
+      <e p="build/XamariniOS" t="IncludeRecursive">
+        <e p="ApiDefinition.cs" t="Include" />
+        <e p="KeraLua.XamarinIOS.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Structs.cs" t="Include" />
+      </e>
+      <e p="build/XamarinMac" t="IncludeRecursive">
+        <e p="KeraLua.XamarinMac.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="KeraLua" t="Include" />
+      <e p="KeraLua.sln" t="IncludeFlat" />
+      <e p="lib/Debug/MonoAndroid" t="ExcludeRecursive" />
+      <e p="lib/Debug/net45" t="ExcludeRecursive" />
+      <e p="lib/Release/XamariniOS" t="ExcludeRecursive" />
+      <e p="lib/Release/XamarinMac" t="ExcludeRecursive" />
+      <e p="lib/Release/xamarintvos" t="ExcludeRecursive" />
+      <e p="lib/Release/xamarinwatchos" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive">
+        <e p="NUnit3TestAdapter.3.11.2/build/net35/nunit.engine.api.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.11.2/build/net35/nunit.engine.dll" t="Include" />
+        <e p="NUnit3TestAdapter.3.11.2/build/net35/NUnit3.TestAdapter.dll" t="Include" />
+      </e>
+      <e p="runtime/Android/libs/arm64-v8a/liblua53.so" t="Include" />
+      <e p="runtime/Android/libs/armeabi-v7a/liblua53.so" t="Include" />
+      <e p="runtime/Android/libs/x86/liblua53.so" t="Include" />
+      <e p="runtime/Android/libs/x86_64/liblua53.so" t="Include" />
+      <e p="runtime/ios" t="Include">
+        <e p="liblua53.framework" t="Include" />
+      </e>
+      <e p="runtime/osx" t="Include">
+        <e p="liblua53.dylib" t="Include" />
+      </e>
+      <e p="runtime/TVOS" t="Include">
+        <e p="liblua53.framework" t="Include" />
+      </e>
+      <e p="runtime/WatchOS" t="Include">
+        <e p="liblua53.framework" t="Include" />
+      </e>
+      <e p="src" t="IncludeRecursive">
+        <e p="DelegateExtensions.cs" t="Include" />
+        <e p="Delegates.cs" t="Include" />
+        <e p="KeraLua.Core.projitems" t="Include" />
+        <e p="KeraLua.Shared.shproj" t="IncludeRecursive" />
+        <e p="Lua.cs" t="Include" />
+        <e p="LuaCompare.cs" t="Include" />
+        <e p="LuaDebug.cs" t="Include" />
+        <e p="LuaGC.cs" t="Include" />
+        <e p="LuaOperation.cs" t="Include" />
+        <e p="LuaRegister.cs" t="Include" />
+        <e p="LuaRegistry.cs" t="Include" />
+        <e p="LuaStatus.cs" t="Include" />
+        <e p="LuaType.cs" t="Include" />
+        <e p="NativeMethods.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="KeraLuaTest.csproj" t="IncludeRecursive" />
+        <e p="LuaTests" t="Include">
+          <e p="core" t="Include">
+            <e p="bisect.lua" t="Include" />
+            <e p="cf.lua" t="Include" />
+            <e p="factorial.lua" t="Include" />
+            <e p="fib.lua" t="Include" />
+            <e p="fibfor.lua" t="Include" />
+            <e p="life.lua" t="Include" />
+            <e p="printf.lua" t="Include" />
+            <e p="sieve.lua" t="Include" />
+            <e p="sort.lua" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="tests" t="Include">
+          <e p="Core.cs" t="Include" />
+          <e p="Interop.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_KeraLua.-1157618320.00" t="ExcludeRecursive" />
+  </component>
+</project>

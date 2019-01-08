@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64de93a0-7158-4d55-8632-4d0644a85185" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.KeraLua/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.KeraLua/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.KeraLua/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.KeraLua/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeraLua.sln" beforeDir="false" afterPath="$PROJECT_DIR$/KeraLua.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/targets/BuildLua.OSX.targets" beforeDir="false" afterPath="$PROJECT_DIR$/build/targets/BuildLua.OSX.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lua.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lua.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NativeMethods.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="386" column="16" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
+              <folding>
+                <marker date="1546816969298" expanded="false" signature="42:576" ph="..." />
+                <marker date="1546816969298" expanded="true" signature="595:23448" ph="{...}" />
+                <marker date="1546816969298" expanded="true" signature="673:23446" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lua.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7527">
+              <caret line="1904" column="84" selection-start-line="1904" selection-start-column="84" selection-end-line="1904" selection-end-column="84" />
+              <folding>
+                <marker date="1546818016809" expanded="false" signature="6:70" ph="..." />
+                <marker date="1546818016809" expanded="true" signature="89:75011" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="96:188" ph="/// Lua state class, main interface to use Lua library. ... " />
+                <marker date="1546818016809" expanded="true" signature="223:75009" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="314:363" ph="///  ... " />
+                <marker date="1546818016809" expanded="true" signature="392:800" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="415:472" ph="///  ... " />
+                <marker date="1546818016809" expanded="true" signature="510:567" ph="///  ... " />
+                <marker date="1546818016809" expanded="true" signature="609:666" ph="///  ... " />
+                <marker date="1546818016809" expanded="true" signature="706:763" ph="///  ... " />
+                <marker date="1546818016809" expanded="true" signature="818:932" ph="/// Encoding for the string conversions ... " />
+                <marker date="1546818016809" expanded="true" signature="988:1116" ph="/// Get the main thread object, if the object is the main thread will be equal this ... " />
+                <marker date="1546818016809" expanded="true" signature="1179:1366" ph="/// Initialize Lua state, and open the default libs ... " />
+                <marker date="1546818016809" expanded="true" signature="1407:1640" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="1694:1863" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="1873:2132" ph="/// Get the Lua object from IntPtr ... " />
+                <marker date="1546818016809" expanded="true" signature="2186:2256" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="2266:2369" ph="/// Finalizer, will dispose the lua state if wasn't closed ... " />
+                <marker date="1546818016809" expanded="true" signature="2384:2432" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="2442:2553" ph="/// Dispose lua state ... " />
+                <marker date="1546818016809" expanded="true" signature="2608:2649" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="2659:2866" ph="/// Destroys all objects in the given Lua state (calling the corresponding garbage-collection metamethods, if any ... " />
+                <marker date="1546818016809" expanded="true" signature="2894:3127" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="3137:3225" ph="/// Dispose the lua context (calling Close) ... " />
+                <marker date="1546818016809" expanded="true" signature="3255:3302" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="3365:3579" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="3656:4023" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="4032:4466" ph="/// Performs an arithmetic or bitwise operation over the two values (or one, in the case of negations) at the top ... " />
+                <marker date="1546818016809" expanded="true" signature="4516:4600" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="4610:4789" ph="/// Sets a new panic function and returns the old one ... " />
+                <marker date="1546818016809" expanded="true" signature="4851:5025" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="5035:6159" ph="///  Calls a function.  ... " />
+                <marker date="1546818016809" expanded="true" signature="6212:6326" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="6336:6649" ph="/// This function behaves exactly like lua_call, but allows the called function to yield  ... " />
+                <marker date="1546818016809" expanded="true" signature="6743:6908" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="6918:7184" ph="/// Ensures that the stack has space for at least n extra slots (that is, that you can safely push up to n values ... " />
+                <marker date="1546818016809" expanded="true" signature="7232:7330" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="7340:7672" ph="/// Compares two Lua values. Returns 1 if the value at index index1 satisfies op when compared with the value at  ... " />
+                <marker date="1546818016809" expanded="true" signature="7747:7862" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="7872:8146" ph="/// Concatenates the n values at the top of the stack, pops them, and leaves the result at the top. If n is 1, th ... " />
+                <marker date="1546818016809" expanded="true" signature="8180:8252" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="8261:8498" ph="/// Copies the element at index fromidx into the valid index toidx, replacing the value at that position ... " />
+                <marker date="1546818016809" expanded="true" signature="8551:8638" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="8648:8994" ph="/// Creates a new empty table and pushes it onto the stack. Parameter narr is a hint for how many elements the ta ... " />
+                <marker date="1546818016809" expanded="true" signature="9053:9146" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="9156:9550" ph="/// Dumps a function as a binary chunk. Receives a Lua function on the top of the stack and produces a binary chu ... " />
+                <marker date="1546818016809" expanded="true" signature="9622:9750" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="9760:9955" ph="/// Generates a Lua error, using the value at the top of the stack as the error object. This function does a long ... " />
+                <marker date="1546818016809" expanded="true" signature="9975:10050" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="10060:10253" ph="/// Controls the garbage collector.  ... " />
+                <marker date="1546818016809" expanded="true" signature="10311:10400" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="10410:10692" ph="/// Returns the memory-allocation function of a given state. If ud is not NULL, Lua stores in *ud the opaque poin ... " />
+                <marker date="1546818016809" expanded="true" signature="10748:10848" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="10858:11233" ph="///  Pushes onto the stack the value t[k], where t is the value at the given index. As in Lua, this function may  ... " />
+                <marker date="1546818016809" expanded="true" signature="11288:11387" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="11397:11600" ph="/// Pushes onto the stack the value of the global name. Returns the type of that value ... " />
+                <marker date="1546818016809" expanded="true" signature="11646:11740" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="11750:12023" ph="/// Pushes onto the stack the value t[i], where t is the value at the given index ... " />
+                <marker date="1546818016809" expanded="true" signature="12076:12169" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="12180:12486" ph="/// Gets information about a specific function or function invocation.  ... " />
+                <marker date="1546818016809" expanded="true" signature="12544:12640" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="12650:12896" ph="/// Gets information about a local variable of a given activation record or a given function.  ... " />
+                <marker date="1546818016809" expanded="true" signature="12951:13040" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="13050:13284" ph="/// If the value at the given index has a metatable, the function pushes that metatable onto the stack and return ... " />
+                <marker date="1546818016809" expanded="true" signature="13328:13422" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="13432:13646" ph="/// Gets information about the interpreter runtime stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="13702:13795" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="13805:14085" ph="/// Pushes onto the stack the value t[k], where t is the value at the given index and k is the value at the top o ... " />
+                <marker date="1546818016809" expanded="true" signature="14128:14222" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="14232:14437" ph="/// Returns the index of the top element in the stack. 0 means an empty stack. ... " />
+                <marker date="1546818016809" expanded="true" signature="14514:14764" ph="/// Pushes onto the stack the Lua value associated with the full userdata at the given index.  ... " />
+                <marker date="1546818016809" expanded="true" signature="14870:15175" ph="/// Moves the top element into the given valid index, shifting up the elements above this index to open space. Th ... " />
+                <marker date="1546818016809" expanded="true" signature="15273:15448" ph="/// Returns  if the value at the given index is a boolean ... " />
+                <marker date="1546818016809" expanded="true" signature="15534:15715" ph="/// Returns  if the value at the given index is a C(##) function ... " />
+                <marker date="1546818016809" expanded="true" signature="15825:16001" ph="/// Returns  if the value at the given index is a function ... " />
+                <marker date="1546818016809" expanded="true" signature="16089:16265" ph="/// Returns  if the value at the given index is an integer ... " />
+                <marker date="1546818016809" expanded="true" signature="16371:16552" ph="/// Returns  if the value at the given index is light user data ... " />
+                <marker date="1546818016809" expanded="true" signature="16650:16819" ph="/// Returns  if the value at the given index is nil ... " />
+                <marker date="1546818016809" expanded="true" signature="16897:17067" ph="/// Returns  if the value at the given index is none ... " />
+                <marker date="1546818016809" expanded="true" signature="17147:17315" ph="/// Check if the value at the index is none or nil ... " />
+                <marker date="1546818016809" expanded="true" signature="17402:17576" ph="/// Returns  if the value at the given index is a number ... " />
+                <marker date="1546818016809" expanded="true" signature="17680:17908" ph="/// Returns  if the value at the given index is a string or a number (which is always convertible to a string) ... " />
+                <marker date="1546818016809" expanded="true" signature="17956:18046" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="18056:18332" ph="/// Returns  if the value at the given index is a string ... " />
+                <marker date="1546818016809" expanded="true" signature="18416:18591" ph="/// Returns  if the value at the given index is a table.  ... " />
+                <marker date="1546818016809" expanded="true" signature="18673:18849" ph="/// Returns  if the value at the given index is a thread.  ... " />
+                <marker date="1546818016809" expanded="true" signature="18933:19112" ph="/// Returns  if the value at the given index is a user data.  ... " />
+                <marker date="1546818016809" expanded="true" signature="19220:19327" ph="/// Returns  if the given coroutine can yield, and 0 otherwise ... " />
+                <marker date="1546818016809" expanded="true" signature="19419:19727" ph="/// Push the length of the value at the given index on the stack. It is equivalent to the '##' operator in Lua (se ... " />
+                <marker date="1546818016809" expanded="true" signature="19823:20422" ph="/// Loads a Lua chunk without running it. If there are no errors, lua_load pushes the compiled chunk as a Lua fun ... " />
+                <marker date="1546818016809" expanded="true" signature="20566:20914" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="20924:21027" ph="/// Creates a new empty table and pushes it onto the stack ... " />
+                <marker date="1546818016809" expanded="true" signature="21119:21453" ph="/// Creates a new thread, pushes it on the stack, and returns a pointer to a lua_State that represents this new t ... " />
+                <marker date="1546818016809" expanded="true" signature="21484:21614" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="21624:21873" ph="/// Pops a key from the stack, and pushes a key�value pair from the table at the given index (the &quot;next&quot; pair aft ... " />
+                <marker date="1546818016809" expanded="true" signature="21969:22196" ph="/// Calls a function in protected mode.  ... " />
+                <marker date="1546818016809" expanded="true" signature="22279:22432" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="22442:22798" ph="/// This function behaves exactly like lua_pcall, but allows the called function to yield ... " />
+                <marker date="1546818016809" expanded="true" signature="22959:23206" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="23216:23334" ph="/// Pops n elements from the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="23423:23561" ph="/// Pushes a boolean value with value b onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="23667:24485" ph="///  Pushes a new C closure onto the stack. When a C function is created, it is possible to associate  ... " />
+                <marker date="1546818016809" expanded="true" signature="24547:24655" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="24665:24955" ph="/// Pushes a C function onto the stack. This function receives a pointer to a C function and pushes onto the stac ... " />
+                <marker date="1546818016809" expanded="true" signature="25011:25070" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="25080:25175" ph="/// Pushes the global environment onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="25213:25338" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="25347:25480" ph="/// Pushes an integer with value n onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="25578:25968" ph="/// Pushes a reference data (C## object)  onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="26032:26294" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="26071:26150" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="26304:26585" ph="/// Pushes a value data (C## struct)  onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="26648:26853" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="26863:27024" ph="/// Pushes a Nullable value data ... " />
+                <marker date="1546818016809" expanded="true" signature="27086:27222" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="27232:27416" ph="/// Pushes binary buffer onto the stack (usually UTF encoded string) or any arbitraty binary data ... " />
+                <marker date="1546818016809" expanded="true" signature="27462:27680" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="27504:27583" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="27690:27810" ph="/// Pushes a string onto the stack ... " />
+                <marker date="1546818016809" expanded="true" signature="27855:28072" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="27896:27975" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="28082:28287" ph="/// Push a instring using string.Format  ... " />
+                <marker date="1546818016809" expanded="true" signature="28354:28426" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="28436:28520" ph="/// Pushes a nil value onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="28601:28737" ph="/// Pushes a double with value n onto the stack.  ... " />
+                <marker date="1546818016809" expanded="true" signature="28845:29080" ph="/// Pushes the thread represented by L onto the stack. Returns true if this thread is the main thread of its stat ... " />
+                <marker date="1546818016809" expanded="true" signature="29123:29208" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="29218:29486" ph="/// Pushes a copy of the element at the given index onto the stack. (lua_pushvalue) ... " />
+                <marker date="1546818016809" expanded="true" signature="29526:29605" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="29615:29991" ph="/// Returns true if the two values in indices index1 and index2 are primitively equal (that is, without calling t ... " />
+                <marker date="1546818016809" expanded="true" signature="30044:30143" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="30153:30383" ph="/// Similar to GetTable, but does a raw access (i.e., without metamethods).  ... " />
+                <marker date="1546818016809" expanded="true" signature="30424:30516" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="30526:30871" ph="/// Pushes onto the stack the value t[n], where t is the table at the given index. The access is raw, that is, it ... " />
+                <marker date="1546818016809" expanded="true" signature="30927:31023" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="31033:31437" ph="/// Pushes onto the stack the value t[k], where t is the table at the given index and k is the pointer p represen ... " />
+                <marker date="1546818016809" expanded="true" signature="31500:31620" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="31630:32040" ph="/// Returns the raw &quot;length&quot; of the value at the given index: for strings, this is the string length; for tables, ... " />
+                <marker date="1546818016809" expanded="true" signature="32077:32165" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="32175:32344" ph="/// Similar to lua_settable, but does a raw assignment (i.e., without metamethods). ... " />
+                <marker date="1546818016809" expanded="true" signature="32382:32458" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="32468:32868" ph="///  Does the equivalent of t[i] = v, where t is the table at the given index and v is the value at the top of th ... " />
+                <marker date="1546818016809" expanded="true" signature="32921:33001" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="33011:33292" ph="/// Does the equivalent of t[p] = v, where t is the table at the given index, p is encoded as a light userdata, a ... " />
+                <marker date="1546818016809" expanded="true" signature="33352:33456" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="33466:33653" ph="/// Sets the C## delegate f as the new value of global name ... " />
+                <marker date="1546818016809" expanded="true" signature="33717:33803" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="33814:34119" ph="/// Removes the element at the given valid index, shifting down the elements above this index to fill the gap. Th ... " />
+                <marker date="1546818016809" expanded="true" signature="34157:34228" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="34238:34489" ph="/// Moves the top element into the given valid index without shifting any element (therefore replacing the value  ... " />
+                <marker date="1546818016809" expanded="true" signature="34528:34597" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="34607:35840" ph="///  To start a coroutine, you push onto the thread stack the main function plus any arguments; then you call lua ... " />
+                <marker date="1546818016809" expanded="true" signature="35897:36011" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="36021:36574" ph="///  Rotates the stack elements between the valid index idx and the top of the stack. The elements are rotated n  ... " />
+                <marker date="1546818016809" expanded="true" signature="36619:36698" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="36708:36908" ph="/// Changes the allocator function of a given state to f with user data ud.  ... " />
+                <marker date="1546818016809" expanded="true" signature="36976:37079" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="37089:37334" ph="/// Does the equivalent to t[k] = v, where t is the value at the given index and v is the value at the top of the ... " />
+                <marker date="1546818016809" expanded="true" signature="37386:37469" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="37479:37641" ph="/// Pops a value from the stack and sets it as the new value of global name.  ... " />
+                <marker date="1546818016809" expanded="true" signature="37684:37762" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="37772:38016" ph="/// Does the equivalent to t[n] = v, where t is the value at the given index and v is the value at the top of the ... " />
+                <marker date="1546818016809" expanded="true" signature="38066:38143" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="38153:38597" ph="/// Sets the value of a local variable of a given activation record. It assigns the value at the top of the stack ... " />
+                <marker date="1546818016809" expanded="true" signature="38652:38741" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="38751:38936" ph="/// Pops a table from the stack and sets it as the new metatable for the value at the given index.  ... " />
+                <marker date="1546818016809" expanded="true" signature="38980:39062" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="39072:39314" ph="///  Does the equivalent to t[k] = v, where t is the value at the given index, v is the value at the top of the s ... " />
+                <marker date="1546818016809" expanded="true" signature="39354:39432" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="39442:39734" ph="/// Accepts any index, or 0, and sets the stack top to this index. If the new top is larger than the old one, the ... " />
+                <marker date="1546818016809" expanded="true" signature="39773:39850" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="39860:40276" ph="/// Sets the value of a closure's upvalue. It assigns the value at the top of the stack to the upvalue and return ... " />
+                <marker date="1546818016809" expanded="true" signature="40335:40433" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="40443:40642" ph="///  Pops a value from the stack and sets it as the new value associated to the full userdata at the given index. ... " />
+                <marker date="1546818016809" expanded="true" signature="40686:40768" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="40778:41181" ph="///  The status can be 0 (LUA_OK) for a normal thread, an error code if the thread finished the execution of a lu ... " />
+                <marker date="1546818016809" expanded="true" signature="41274:41477" ph="/// Converts the zero-terminated string s to a number, pushes that number into the stack, ... " />
+                <marker date="1546818016809" expanded="true" signature="41522:41625" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="41635:41820" ph="/// Converts the Lua value at the given index to a C## boolean value ... " />
+                <marker date="1546818016809" expanded="true" signature="41861:41952" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="41962:42195" ph="/// Converts a value at the given index to a C## function. That value must be a C## function; otherwise, returns NU ... " />
+                <marker date="1546818016809" expanded="true" signature="42245:42349" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="42359:42697" ph="/// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an i ... " />
+                <marker date="1546818016809" expanded="true" signature="42738:42859" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="42869:43207" ph="/// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an i ... " />
+                <marker date="1546818016809" expanded="true" signature="43250:43472" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="43482:43653" ph="/// Converts the Lua value at the given as byte array ... " />
+                <marker date="1546818016809" expanded="true" signature="43695:43757" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="43766:44029" ph="/// Converts the Lua value at the given index to a byte array. ... " />
+                <marker date="1546818016809" expanded="true" signature="44092:44664" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="44674:44852" ph="/// Converts the Lua value at the given index to a C## string ... " />
+                <marker date="1546818016809" expanded="true" signature="44894:44956" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="44965:45226" ph="/// Converts the Lua value at the given index to a C## string ... " />
+                <marker date="1546818016809" expanded="true" signature="45289:45478" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="45488:45666" ph="/// Converts the Lua value at the given index to a C## double ... " />
+                <marker date="1546818016809" expanded="true" signature="45708:45828" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="45838:46017" ph="/// Converts the Lua value at the given index to a C## double? ... " />
+                <marker date="1546818016809" expanded="true" signature="46061:46281" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="46292:46520" ph="/// Converts the value at the given index to a Lua thread ... " />
+                <marker date="1546818016809" expanded="true" signature="46559:46756" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="46766:47121" ph="/// Return an object (refence) at the index ... " />
+                <marker date="1546818016809" expanded="true" signature="47184:47588" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="47598:47797" ph="/// Return a value object from index ... " />
+                <marker date="1546818016809" expanded="true" signature="47857:47971" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="47981:48174" ph="/// Return a value? from index ... " />
+                <marker date="1546818016809" expanded="true" signature="48243:48550" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="48560:48669" ph="/// ... " />
+                <marker date="1546818016809" expanded="true" signature="48708:48798" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="48808:49039" ph="/// Returns the name of the type of the value at the given index.  ... " />
+                <marker date="1546818016809" expanded="true" signature="49084:49173" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="49183:49442" ph="///  Returns a unique identifier for the upvalue numbered n from the closure at index funcindex. ... " />
+                <marker date="1546818016809" expanded="true" signature="49498:49601" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="49611:49811" ph="/// Returns the pseudo-index that represents the i-th upvalue of the running function  ... " />
+                <marker date="1546818016809" expanded="true" signature="49857:49924" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="49934:50286" ph="/// Make the n1-th upvalue of the Lua closure at index funcindex1 refer to the n2-th upvalue of the Lua closure a ... " />
+                <marker date="1546818016809" expanded="true" signature="50374:50488" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="50498:50614" ph="/// Return the version of Lua (e.g 503) ... " />
+                <marker date="1546818016809" expanded="true" signature="50646:50862" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="50872:51190" ph="///  Exchange values between different threads of the same state. ... " />
+                <marker date="1546818016809" expanded="true" signature="51231:51316" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="51326:51638" ph="/// This function is equivalent to lua_yieldk, but it has no continuation (see �4.7). Therefore, when the thread  ... " />
+                <marker date="1546818016809" expanded="true" signature="51676:51787" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="51797:52263" ph="///  Yields a coroutine (thread). When a C function calls lua_yieldk, the running coroutine suspends its executio ... " />
+                <marker date="1546818016809" expanded="true" signature="52342:52504" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="52558:52821" ph="/// Checks whether cond is true. If it is not, raises an error with a standard message ... " />
+                <marker date="1546818016809" expanded="true" signature="52901:53018" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="53028:53346" ph="/// Raises an error reporting a problem with argument arg of the C function that called it, using a standard mess ... " />
+                <marker date="1546818016809" expanded="true" signature="53409:53557" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="53567:53987" ph="/// If the object at index obj has a metatable and this metatable has a field e, this function calls this field p ... " />
+                <marker date="1546818016809" expanded="true" signature="54045:54141" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="54151:54333" ph="/// Checks whether the function has an argument of any type (including nil) at position arg.  ... " />
+                <marker date="1546818016809" expanded="true" signature="54376:54458" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="54468:54683" ph="/// Checks whether the function argument arg is an integer (or can be converted to an integer) ... " />
+                <marker date="1546818016809" expanded="true" signature="54730:54823" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="54833:55035" ph="/// Checks whether the function argument arg is a string and returns this string; ... " />
+                <marker date="1546818016809" expanded="true" signature="55083:55509" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="55519:55721" ph="/// Checks whether the function argument arg is a string and returns this string; ... " />
+                <marker date="1546818016809" expanded="true" signature="55769:55948" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="55958:56161" ph="/// Checks whether the function argument arg is a number and returns this number.  ... " />
+                <marker date="1546818016809" expanded="true" signature="56209:56301" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="56312:56615" ph="/// Checks whether the function argument arg is a string and searches for this string in the array lst  ... " />
+                <marker date="1546818016809" expanded="true" signature="56687:56790" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="56801:57021" ph="/// Grows the stack size to top + sz elements, raising an error if the stack cannot grow  ... " />
+                <marker date="1546818016809" expanded="true" signature="57081:57173" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="57183:57370" ph="/// Checks whether the function argument arg has type type ... " />
+                <marker date="1546818016809" expanded="true" signature="57428:57522" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="57532:57818" ph="/// Checks whether the function argument arg is a userdata of the type tname ... " />
+                <marker date="1546818016809" expanded="true" signature="57904:58328" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="58338:58625" ph="/// Check if the value on stack is a nullable value data and return the value ... " />
+                <marker date="1546818016809" expanded="true" signature="58708:58838" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="58848:59136" ph="/// Check if the value on stack is a nullable value data and return the value. ... " />
+                <marker date="1546818016809" expanded="true" signature="59228:59555" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="59565:59782" ph="/// Loads and runs the given file ... " />
+                <marker date="1546818016809" expanded="true" signature="59822:59966" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="59976:60195" ph="/// Loads and runs the given string ... " />
+                <marker date="1546818016809" expanded="true" signature="60237:60383" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="60393:60634" ph="/// Raises an error. The error message format is given by fmt plus any extra arguments ... " />
+                <marker date="1546818016809" expanded="true" signature="60692:60831" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="60841:61056" ph="/// This function produces the return values for process-related functions in the standard library ... " />
+                <marker date="1546818016809" expanded="true" signature="61096:61183" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="61193:61449" ph="/// This function produces the return values for file-related functions in the standard library ... " />
+                <marker date="1546818016809" expanded="true" signature="61506:61603" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="61613:61894" ph="/// Pushes onto the stack the field e from the metatable of the object at index obj and returns the type of the p ... " />
+                <marker date="1546818016809" expanded="true" signature="61953:62057" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="62067:62390" ph="/// Pushes onto the stack the metatable associated with name tname in the registry (see luaL_newmetatable) (nil i ... " />
+                <marker date="1546818016809" expanded="true" signature="62444:62528" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="62538:62901" ph="/// Ensures that the value t[fname], where t is the value at index idx, is a table, and pushes that table onto th ... " />
+                <marker date="1546818016809" expanded="true" signature="62957:63057" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="63067:63298" ph="/// Returns the &quot;length&quot; of the value at the given index as a number; it is equivalent to the '##' operator in Lua ... " />
+                <marker date="1546818016809" expanded="true" signature="63391:63623" ph="/// Loads a buffer as a Lua chunk ... " />
+                <marker date="1546818016809" expanded="true" signature="63700:63837" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="63847:63997" ph="/// ... " />
+                <marker date="1546818016809" expanded="true" signature="64061:64132" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="64142:64294" ph="/// Loads a buffer as a Lua chunk ... " />
+                <marker date="1546818016809" expanded="true" signature="64345:64417" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="64427:64618" ph="/// Loads a string as a Lua chunk ... " />
+                <marker date="1546818016809" expanded="true" signature="64681:64800" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="64810:64961" ph="/// Loads a string as a Lua chunk ... " />
+                <marker date="1546818016809" expanded="true" signature="65011:65075" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="65085:65370" ph="/// Loads a file as a Lua chunk. This function uses lua_load to load the chunk in the file named filename ... " />
+                <marker date="1546818016809" expanded="true" signature="65430:65533" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="65543:65709" ph="/// Loads a file as a Lua chunk. ... " />
+                <marker date="1546818016809" expanded="true" signature="65756:65817" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="65827:65990" ph="/// Creates a new table and registers there the functions in list library.  ... " />
+                <marker date="1546818016809" expanded="true" signature="66041:66129" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="66139:66343" ph="/// Creates a new table with a size optimized to store all entries in the array l (but does not actually store th ... " />
+                <marker date="1546818016809" expanded="true" signature="66399:66463" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="66473:66710" ph="/// Creates a new table to be used as a metatable for userdata ... " />
+                <marker date="1546818016809" expanded="true" signature="66756:66850" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="66860:66964" ph="/// Opens all standard Lua libraries into the given state.  ... " />
+                <marker date="1546818016809" expanded="true" signature="66995:67067" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="67077:67396" ph="/// If the function argument arg is an integer (or convertible to an integer), returns this integer. If this argu ... " />
+                <marker date="1546818016809" expanded="true" signature="67449:67543" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="67553:67823" ph="/// If the function argument arg is a string, returns this string. If this argument is absent or is nil, returns  ... " />
+                <marker date="1546818016809" expanded="true" signature="67879:68001" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="68011:68282" ph="/// If the function argument arg is a string, returns this string. If this argument is absent or is nil, returns  ... " />
+                <marker date="1546818016809" expanded="true" signature="68337:68459" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="68470:68741" ph="/// If the function argument arg is a number, returns this number. If this argument is absent or is nil, returns  ... " />
+                <marker date="1546818016809" expanded="true" signature="68796:68888" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="68898:69145" ph="/// Creates and returns a reference, in the table at index t, for the object at the top of the stack (and pops th ... " />
+                <marker date="1546818016809" expanded="true" signature="69184:69270" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="69280:69678" ph="/// If modname is not already present in package.loaded, calls function openf with string modname as an argument  ... " />
+                <marker date="1546818016809" expanded="true" signature="69765:69898" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="69908:70178" ph="/// Registers all functions in the array l (see luaL_Reg) into the table on the top of the stack (below optional  ... " />
+                <marker date="1546818016809" expanded="true" signature="70251:70348" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="70358:70563" ph="/// Sets the metatable of the object at the top of the stack as the metatable associated with name tname in the r ... " />
+                <marker date="1546818016809" expanded="true" signature="70609:70691" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="70701:70961" ph="/// Test if the value at index is a reference data ... " />
+                <marker date="1546818016809" expanded="true" signature="71046:71469" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="71479:71744" ph="/// Test if the value at index is a nullable value data ... " />
+                <marker date="1546818016809" expanded="true" signature="71835:72161" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="72171:72427" ph="/// Test if the value at index is a value data ... " />
+                <marker date="1546818016809" expanded="true" signature="72509:72638" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="72648:72869" ph="/// Creates and pushes a traceback of the stack L1 ... " />
+                <marker date="1546818016809" expanded="true" signature="72925:72988" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="72998:73304" ph="/// Creates and pushes a traceback of the stack L1 ... " />
+                <marker date="1546818016809" expanded="true" signature="73372:73478" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="73488:73672" ph="/// Returns the name of the type of the value at the given index.  ... " />
+                <marker date="1546818016809" expanded="true" signature="73714:73800" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="73810:74146" ph="/// Releases reference ref from the table at index t (see luaL_ref). The entry is removed from the table, so that ... " />
+                <marker date="1546818016809" expanded="true" signature="74203:74295" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="74305:74504" ph="/// Pushes onto the stack a string identifying the current position of the control at level lvl in the call stack ... " />
+                <marker date="1546818016809" expanded="true" signature="74541:74617" ph="{...}" />
+                <marker date="1546818016809" expanded="true" signature="74635:74809" ph="///  ... " />
+                <marker date="1546818016809" expanded="true" signature="74885:75003" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>static extern</find>
+      <find>f</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>static public extern</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/NativeMethods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Lua.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/NativeMethods.cs" />
+        <option value="$PROJECT_DIR$/src/Lua.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="950" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="KeraLua" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64de93a0-7158-4d55-8632-4d0644a85185" name="Default Changelist" comment="" />
+      <created>1546713874338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546713874338</updated>
+      <workItem from="1546713876637" duration="51000" />
+      <workItem from="1546815833622" duration="140000" />
+      <workItem from="1546816165082" duration="197000" />
+      <workItem from="1546816471099" duration="261000" />
+      <workItem from="1546816985426" duration="1695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2344000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="950" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="13" visible="true" weight="0.32983682" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="LuaJ" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1546713781823" expanded="true" signature="6:96" ph="..." />
+            <marker date="1546713781823" expanded="true" signature="129:259" ph="/* Information about this assembly is defined by the following attributes. ... */" />
+            <marker date="1546713781823" expanded="true" signature="544:768" ph="/* The assembly version has the format &quot;{Major}.{Minor}.{Build}.{Revision}&quot;. ... */" />
+            <marker date="1546713781823" expanded="true" signature="993:1228" ph="/* [assembly: AssemblyDelaySign(false)] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NativeMethods.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="386" column="16" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
+          <folding>
+            <marker date="1546816969298" expanded="false" signature="42:576" ph="..." />
+            <marker date="1546816969298" expanded="true" signature="595:23448" ph="{...}" />
+            <marker date="1546816969298" expanded="true" signature="673:23446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lua.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7527">
+          <caret line="1904" column="84" selection-start-line="1904" selection-start-column="84" selection-end-line="1904" selection-end-column="84" />
+          <folding>
+            <marker date="1546818016809" expanded="false" signature="6:70" ph="..." />
+            <marker date="1546818016809" expanded="true" signature="89:75011" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="96:188" ph="/// Lua state class, main interface to use Lua library. ... " />
+            <marker date="1546818016809" expanded="true" signature="223:75009" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="314:363" ph="///  ... " />
+            <marker date="1546818016809" expanded="true" signature="392:800" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="415:472" ph="///  ... " />
+            <marker date="1546818016809" expanded="true" signature="510:567" ph="///  ... " />
+            <marker date="1546818016809" expanded="true" signature="609:666" ph="///  ... " />
+            <marker date="1546818016809" expanded="true" signature="706:763" ph="///  ... " />
+            <marker date="1546818016809" expanded="true" signature="818:932" ph="/// Encoding for the string conversions ... " />
+            <marker date="1546818016809" expanded="true" signature="988:1116" ph="/// Get the main thread object, if the object is the main thread will be equal this ... " />
+            <marker date="1546818016809" expanded="true" signature="1179:1366" ph="/// Initialize Lua state, and open the default libs ... " />
+            <marker date="1546818016809" expanded="true" signature="1407:1640" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="1694:1863" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="1873:2132" ph="/// Get the Lua object from IntPtr ... " />
+            <marker date="1546818016809" expanded="true" signature="2186:2256" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="2266:2369" ph="/// Finalizer, will dispose the lua state if wasn't closed ... " />
+            <marker date="1546818016809" expanded="true" signature="2384:2432" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="2442:2553" ph="/// Dispose lua state ... " />
+            <marker date="1546818016809" expanded="true" signature="2608:2649" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="2659:2866" ph="/// Destroys all objects in the given Lua state (calling the corresponding garbage-collection metamethods, if any ... " />
+            <marker date="1546818016809" expanded="true" signature="2894:3127" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="3137:3225" ph="/// Dispose the lua context (calling Close) ... " />
+            <marker date="1546818016809" expanded="true" signature="3255:3302" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="3365:3579" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="3656:4023" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="4032:4466" ph="/// Performs an arithmetic or bitwise operation over the two values (or one, in the case of negations) at the top ... " />
+            <marker date="1546818016809" expanded="true" signature="4516:4600" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="4610:4789" ph="/// Sets a new panic function and returns the old one ... " />
+            <marker date="1546818016809" expanded="true" signature="4851:5025" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="5035:6159" ph="///  Calls a function.  ... " />
+            <marker date="1546818016809" expanded="true" signature="6212:6326" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="6336:6649" ph="/// This function behaves exactly like lua_call, but allows the called function to yield  ... " />
+            <marker date="1546818016809" expanded="true" signature="6743:6908" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="6918:7184" ph="/// Ensures that the stack has space for at least n extra slots (that is, that you can safely push up to n values ... " />
+            <marker date="1546818016809" expanded="true" signature="7232:7330" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="7340:7672" ph="/// Compares two Lua values. Returns 1 if the value at index index1 satisfies op when compared with the value at  ... " />
+            <marker date="1546818016809" expanded="true" signature="7747:7862" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="7872:8146" ph="/// Concatenates the n values at the top of the stack, pops them, and leaves the result at the top. If n is 1, th ... " />
+            <marker date="1546818016809" expanded="true" signature="8180:8252" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="8261:8498" ph="/// Copies the element at index fromidx into the valid index toidx, replacing the value at that position ... " />
+            <marker date="1546818016809" expanded="true" signature="8551:8638" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="8648:8994" ph="/// Creates a new empty table and pushes it onto the stack. Parameter narr is a hint for how many elements the ta ... " />
+            <marker date="1546818016809" expanded="true" signature="9053:9146" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="9156:9550" ph="/// Dumps a function as a binary chunk. Receives a Lua function on the top of the stack and produces a binary chu ... " />
+            <marker date="1546818016809" expanded="true" signature="9622:9750" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="9760:9955" ph="/// Generates a Lua error, using the value at the top of the stack as the error object. This function does a long ... " />
+            <marker date="1546818016809" expanded="true" signature="9975:10050" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="10060:10253" ph="/// Controls the garbage collector.  ... " />
+            <marker date="1546818016809" expanded="true" signature="10311:10400" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="10410:10692" ph="/// Returns the memory-allocation function of a given state. If ud is not NULL, Lua stores in *ud the opaque poin ... " />
+            <marker date="1546818016809" expanded="true" signature="10748:10848" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="10858:11233" ph="///  Pushes onto the stack the value t[k], where t is the value at the given index. As in Lua, this function may  ... " />
+            <marker date="1546818016809" expanded="true" signature="11288:11387" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="11397:11600" ph="/// Pushes onto the stack the value of the global name. Returns the type of that value ... " />
+            <marker date="1546818016809" expanded="true" signature="11646:11740" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="11750:12023" ph="/// Pushes onto the stack the value t[i], where t is the value at the given index ... " />
+            <marker date="1546818016809" expanded="true" signature="12076:12169" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="12180:12486" ph="/// Gets information about a specific function or function invocation.  ... " />
+            <marker date="1546818016809" expanded="true" signature="12544:12640" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="12650:12896" ph="/// Gets information about a local variable of a given activation record or a given function.  ... " />
+            <marker date="1546818016809" expanded="true" signature="12951:13040" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="13050:13284" ph="/// If the value at the given index has a metatable, the function pushes that metatable onto the stack and return ... " />
+            <marker date="1546818016809" expanded="true" signature="13328:13422" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="13432:13646" ph="/// Gets information about the interpreter runtime stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="13702:13795" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="13805:14085" ph="/// Pushes onto the stack the value t[k], where t is the value at the given index and k is the value at the top o ... " />
+            <marker date="1546818016809" expanded="true" signature="14128:14222" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="14232:14437" ph="/// Returns the index of the top element in the stack. 0 means an empty stack. ... " />
+            <marker date="1546818016809" expanded="true" signature="14514:14764" ph="/// Pushes onto the stack the Lua value associated with the full userdata at the given index.  ... " />
+            <marker date="1546818016809" expanded="true" signature="14870:15175" ph="/// Moves the top element into the given valid index, shifting up the elements above this index to open space. Th ... " />
+            <marker date="1546818016809" expanded="true" signature="15273:15448" ph="/// Returns  if the value at the given index is a boolean ... " />
+            <marker date="1546818016809" expanded="true" signature="15534:15715" ph="/// Returns  if the value at the given index is a C(##) function ... " />
+            <marker date="1546818016809" expanded="true" signature="15825:16001" ph="/// Returns  if the value at the given index is a function ... " />
+            <marker date="1546818016809" expanded="true" signature="16089:16265" ph="/// Returns  if the value at the given index is an integer ... " />
+            <marker date="1546818016809" expanded="true" signature="16371:16552" ph="/// Returns  if the value at the given index is light user data ... " />
+            <marker date="1546818016809" expanded="true" signature="16650:16819" ph="/// Returns  if the value at the given index is nil ... " />
+            <marker date="1546818016809" expanded="true" signature="16897:17067" ph="/// Returns  if the value at the given index is none ... " />
+            <marker date="1546818016809" expanded="true" signature="17147:17315" ph="/// Check if the value at the index is none or nil ... " />
+            <marker date="1546818016809" expanded="true" signature="17402:17576" ph="/// Returns  if the value at the given index is a number ... " />
+            <marker date="1546818016809" expanded="true" signature="17680:17908" ph="/// Returns  if the value at the given index is a string or a number (which is always convertible to a string) ... " />
+            <marker date="1546818016809" expanded="true" signature="17956:18046" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="18056:18332" ph="/// Returns  if the value at the given index is a string ... " />
+            <marker date="1546818016809" expanded="true" signature="18416:18591" ph="/// Returns  if the value at the given index is a table.  ... " />
+            <marker date="1546818016809" expanded="true" signature="18673:18849" ph="/// Returns  if the value at the given index is a thread.  ... " />
+            <marker date="1546818016809" expanded="true" signature="18933:19112" ph="/// Returns  if the value at the given index is a user data.  ... " />
+            <marker date="1546818016809" expanded="true" signature="19220:19327" ph="/// Returns  if the given coroutine can yield, and 0 otherwise ... " />
+            <marker date="1546818016809" expanded="true" signature="19419:19727" ph="/// Push the length of the value at the given index on the stack. It is equivalent to the '##' operator in Lua (se ... " />
+            <marker date="1546818016809" expanded="true" signature="19823:20422" ph="/// Loads a Lua chunk without running it. If there are no errors, lua_load pushes the compiled chunk as a Lua fun ... " />
+            <marker date="1546818016809" expanded="true" signature="20566:20914" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="20924:21027" ph="/// Creates a new empty table and pushes it onto the stack ... " />
+            <marker date="1546818016809" expanded="true" signature="21119:21453" ph="/// Creates a new thread, pushes it on the stack, and returns a pointer to a lua_State that represents this new t ... " />
+            <marker date="1546818016809" expanded="true" signature="21484:21614" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="21624:21873" ph="/// Pops a key from the stack, and pushes a key�value pair from the table at the given index (the &quot;next&quot; pair aft ... " />
+            <marker date="1546818016809" expanded="true" signature="21969:22196" ph="/// Calls a function in protected mode.  ... " />
+            <marker date="1546818016809" expanded="true" signature="22279:22432" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="22442:22798" ph="/// This function behaves exactly like lua_pcall, but allows the called function to yield ... " />
+            <marker date="1546818016809" expanded="true" signature="22959:23206" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="23216:23334" ph="/// Pops n elements from the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="23423:23561" ph="/// Pushes a boolean value with value b onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="23667:24485" ph="///  Pushes a new C closure onto the stack. When a C function is created, it is possible to associate  ... " />
+            <marker date="1546818016809" expanded="true" signature="24547:24655" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="24665:24955" ph="/// Pushes a C function onto the stack. This function receives a pointer to a C function and pushes onto the stac ... " />
+            <marker date="1546818016809" expanded="true" signature="25011:25070" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="25080:25175" ph="/// Pushes the global environment onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="25213:25338" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="25347:25480" ph="/// Pushes an integer with value n onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="25578:25968" ph="/// Pushes a reference data (C## object)  onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="26032:26294" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="26071:26150" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="26304:26585" ph="/// Pushes a value data (C## struct)  onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="26648:26853" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="26863:27024" ph="/// Pushes a Nullable value data ... " />
+            <marker date="1546818016809" expanded="true" signature="27086:27222" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="27232:27416" ph="/// Pushes binary buffer onto the stack (usually UTF encoded string) or any arbitraty binary data ... " />
+            <marker date="1546818016809" expanded="true" signature="27462:27680" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="27504:27583" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="27690:27810" ph="/// Pushes a string onto the stack ... " />
+            <marker date="1546818016809" expanded="true" signature="27855:28072" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="27896:27975" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="28082:28287" ph="/// Push a instring using string.Format  ... " />
+            <marker date="1546818016809" expanded="true" signature="28354:28426" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="28436:28520" ph="/// Pushes a nil value onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="28601:28737" ph="/// Pushes a double with value n onto the stack.  ... " />
+            <marker date="1546818016809" expanded="true" signature="28845:29080" ph="/// Pushes the thread represented by L onto the stack. Returns true if this thread is the main thread of its stat ... " />
+            <marker date="1546818016809" expanded="true" signature="29123:29208" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="29218:29486" ph="/// Pushes a copy of the element at the given index onto the stack. (lua_pushvalue) ... " />
+            <marker date="1546818016809" expanded="true" signature="29526:29605" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="29615:29991" ph="/// Returns true if the two values in indices index1 and index2 are primitively equal (that is, without calling t ... " />
+            <marker date="1546818016809" expanded="true" signature="30044:30143" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="30153:30383" ph="/// Similar to GetTable, but does a raw access (i.e., without metamethods).  ... " />
+            <marker date="1546818016809" expanded="true" signature="30424:30516" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="30526:30871" ph="/// Pushes onto the stack the value t[n], where t is the table at the given index. The access is raw, that is, it ... " />
+            <marker date="1546818016809" expanded="true" signature="30927:31023" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="31033:31437" ph="/// Pushes onto the stack the value t[k], where t is the table at the given index and k is the pointer p represen ... " />
+            <marker date="1546818016809" expanded="true" signature="31500:31620" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="31630:32040" ph="/// Returns the raw &quot;length&quot; of the value at the given index: for strings, this is the string length; for tables, ... " />
+            <marker date="1546818016809" expanded="true" signature="32077:32165" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="32175:32344" ph="/// Similar to lua_settable, but does a raw assignment (i.e., without metamethods). ... " />
+            <marker date="1546818016809" expanded="true" signature="32382:32458" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="32468:32868" ph="///  Does the equivalent of t[i] = v, where t is the table at the given index and v is the value at the top of th ... " />
+            <marker date="1546818016809" expanded="true" signature="32921:33001" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="33011:33292" ph="/// Does the equivalent of t[p] = v, where t is the table at the given index, p is encoded as a light userdata, a ... " />
+            <marker date="1546818016809" expanded="true" signature="33352:33456" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="33466:33653" ph="/// Sets the C## delegate f as the new value of global name ... " />
+            <marker date="1546818016809" expanded="true" signature="33717:33803" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="33814:34119" ph="/// Removes the element at the given valid index, shifting down the elements above this index to fill the gap. Th ... " />
+            <marker date="1546818016809" expanded="true" signature="34157:34228" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="34238:34489" ph="/// Moves the top element into the given valid index without shifting any element (therefore replacing the value  ... " />
+            <marker date="1546818016809" expanded="true" signature="34528:34597" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="34607:35840" ph="///  To start a coroutine, you push onto the thread stack the main function plus any arguments; then you call lua ... " />
+            <marker date="1546818016809" expanded="true" signature="35897:36011" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="36021:36574" ph="///  Rotates the stack elements between the valid index idx and the top of the stack. The elements are rotated n  ... " />
+            <marker date="1546818016809" expanded="true" signature="36619:36698" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="36708:36908" ph="/// Changes the allocator function of a given state to f with user data ud.  ... " />
+            <marker date="1546818016809" expanded="true" signature="36976:37079" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="37089:37334" ph="/// Does the equivalent to t[k] = v, where t is the value at the given index and v is the value at the top of the ... " />
+            <marker date="1546818016809" expanded="true" signature="37386:37469" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="37479:37641" ph="/// Pops a value from the stack and sets it as the new value of global name.  ... " />
+            <marker date="1546818016809" expanded="true" signature="37684:37762" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="37772:38016" ph="/// Does the equivalent to t[n] = v, where t is the value at the given index and v is the value at the top of the ... " />
+            <marker date="1546818016809" expanded="true" signature="38066:38143" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="38153:38597" ph="/// Sets the value of a local variable of a given activation record. It assigns the value at the top of the stack ... " />
+            <marker date="1546818016809" expanded="true" signature="38652:38741" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="38751:38936" ph="/// Pops a table from the stack and sets it as the new metatable for the value at the given index.  ... " />
+            <marker date="1546818016809" expanded="true" signature="38980:39062" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="39072:39314" ph="///  Does the equivalent to t[k] = v, where t is the value at the given index, v is the value at the top of the s ... " />
+            <marker date="1546818016809" expanded="true" signature="39354:39432" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="39442:39734" ph="/// Accepts any index, or 0, and sets the stack top to this index. If the new top is larger than the old one, the ... " />
+            <marker date="1546818016809" expanded="true" signature="39773:39850" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="39860:40276" ph="/// Sets the value of a closure's upvalue. It assigns the value at the top of the stack to the upvalue and return ... " />
+            <marker date="1546818016809" expanded="true" signature="40335:40433" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="40443:40642" ph="///  Pops a value from the stack and sets it as the new value associated to the full userdata at the given index. ... " />
+            <marker date="1546818016809" expanded="true" signature="40686:40768" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="40778:41181" ph="///  The status can be 0 (LUA_OK) for a normal thread, an error code if the thread finished the execution of a lu ... " />
+            <marker date="1546818016809" expanded="true" signature="41274:41477" ph="/// Converts the zero-terminated string s to a number, pushes that number into the stack, ... " />
+            <marker date="1546818016809" expanded="true" signature="41522:41625" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="41635:41820" ph="/// Converts the Lua value at the given index to a C## boolean value ... " />
+            <marker date="1546818016809" expanded="true" signature="41861:41952" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="41962:42195" ph="/// Converts a value at the given index to a C## function. That value must be a C## function; otherwise, returns NU ... " />
+            <marker date="1546818016809" expanded="true" signature="42245:42349" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="42359:42697" ph="/// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an i ... " />
+            <marker date="1546818016809" expanded="true" signature="42738:42859" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="42869:43207" ph="/// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an i ... " />
+            <marker date="1546818016809" expanded="true" signature="43250:43472" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="43482:43653" ph="/// Converts the Lua value at the given as byte array ... " />
+            <marker date="1546818016809" expanded="true" signature="43695:43757" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="43766:44029" ph="/// Converts the Lua value at the given index to a byte array. ... " />
+            <marker date="1546818016809" expanded="true" signature="44092:44664" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="44674:44852" ph="/// Converts the Lua value at the given index to a C## string ... " />
+            <marker date="1546818016809" expanded="true" signature="44894:44956" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="44965:45226" ph="/// Converts the Lua value at the given index to a C## string ... " />
+            <marker date="1546818016809" expanded="true" signature="45289:45478" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="45488:45666" ph="/// Converts the Lua value at the given index to a C## double ... " />
+            <marker date="1546818016809" expanded="true" signature="45708:45828" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="45838:46017" ph="/// Converts the Lua value at the given index to a C## double? ... " />
+            <marker date="1546818016809" expanded="true" signature="46061:46281" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="46292:46520" ph="/// Converts the value at the given index to a Lua thread ... " />
+            <marker date="1546818016809" expanded="true" signature="46559:46756" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="46766:47121" ph="/// Return an object (refence) at the index ... " />
+            <marker date="1546818016809" expanded="true" signature="47184:47588" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="47598:47797" ph="/// Return a value object from index ... " />
+            <marker date="1546818016809" expanded="true" signature="47857:47971" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="47981:48174" ph="/// Return a value? from index ... " />
+            <marker date="1546818016809" expanded="true" signature="48243:48550" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="48560:48669" ph="/// ... " />
+            <marker date="1546818016809" expanded="true" signature="48708:48798" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="48808:49039" ph="/// Returns the name of the type of the value at the given index.  ... " />
+            <marker date="1546818016809" expanded="true" signature="49084:49173" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="49183:49442" ph="///  Returns a unique identifier for the upvalue numbered n from the closure at index funcindex. ... " />
+            <marker date="1546818016809" expanded="true" signature="49498:49601" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="49611:49811" ph="/// Returns the pseudo-index that represents the i-th upvalue of the running function  ... " />
+            <marker date="1546818016809" expanded="true" signature="49857:49924" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="49934:50286" ph="/// Make the n1-th upvalue of the Lua closure at index funcindex1 refer to the n2-th upvalue of the Lua closure a ... " />
+            <marker date="1546818016809" expanded="true" signature="50374:50488" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="50498:50614" ph="/// Return the version of Lua (e.g 503) ... " />
+            <marker date="1546818016809" expanded="true" signature="50646:50862" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="50872:51190" ph="///  Exchange values between different threads of the same state. ... " />
+            <marker date="1546818016809" expanded="true" signature="51231:51316" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="51326:51638" ph="/// This function is equivalent to lua_yieldk, but it has no continuation (see �4.7). Therefore, when the thread  ... " />
+            <marker date="1546818016809" expanded="true" signature="51676:51787" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="51797:52263" ph="///  Yields a coroutine (thread). When a C function calls lua_yieldk, the running coroutine suspends its executio ... " />
+            <marker date="1546818016809" expanded="true" signature="52342:52504" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="52558:52821" ph="/// Checks whether cond is true. If it is not, raises an error with a standard message ... " />
+            <marker date="1546818016809" expanded="true" signature="52901:53018" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="53028:53346" ph="/// Raises an error reporting a problem with argument arg of the C function that called it, using a standard mess ... " />
+            <marker date="1546818016809" expanded="true" signature="53409:53557" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="53567:53987" ph="/// If the object at index obj has a metatable and this metatable has a field e, this function calls this field p ... " />
+            <marker date="1546818016809" expanded="true" signature="54045:54141" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="54151:54333" ph="/// Checks whether the function has an argument of any type (including nil) at position arg.  ... " />
+            <marker date="1546818016809" expanded="true" signature="54376:54458" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="54468:54683" ph="/// Checks whether the function argument arg is an integer (or can be converted to an integer) ... " />
+            <marker date="1546818016809" expanded="true" signature="54730:54823" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="54833:55035" ph="/// Checks whether the function argument arg is a string and returns this string; ... " />
+            <marker date="1546818016809" expanded="true" signature="55083:55509" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="55519:55721" ph="/// Checks whether the function argument arg is a string and returns this string; ... " />
+            <marker date="1546818016809" expanded="true" signature="55769:55948" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="55958:56161" ph="/// Checks whether the function argument arg is a number and returns this number.  ... " />
+            <marker date="1546818016809" expanded="true" signature="56209:56301" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="56312:56615" ph="/// Checks whether the function argument arg is a string and searches for this string in the array lst  ... " />
+            <marker date="1546818016809" expanded="true" signature="56687:56790" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="56801:57021" ph="/// Grows the stack size to top + sz elements, raising an error if the stack cannot grow  ... " />
+            <marker date="1546818016809" expanded="true" signature="57081:57173" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="57183:57370" ph="/// Checks whether the function argument arg has type type ... " />
+            <marker date="1546818016809" expanded="true" signature="57428:57522" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="57532:57818" ph="/// Checks whether the function argument arg is a userdata of the type tname ... " />
+            <marker date="1546818016809" expanded="true" signature="57904:58328" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="58338:58625" ph="/// Check if the value on stack is a nullable value data and return the value ... " />
+            <marker date="1546818016809" expanded="true" signature="58708:58838" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="58848:59136" ph="/// Check if the value on stack is a nullable value data and return the value. ... " />
+            <marker date="1546818016809" expanded="true" signature="59228:59555" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="59565:59782" ph="/// Loads and runs the given file ... " />
+            <marker date="1546818016809" expanded="true" signature="59822:59966" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="59976:60195" ph="/// Loads and runs the given string ... " />
+            <marker date="1546818016809" expanded="true" signature="60237:60383" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="60393:60634" ph="/// Raises an error. The error message format is given by fmt plus any extra arguments ... " />
+            <marker date="1546818016809" expanded="true" signature="60692:60831" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="60841:61056" ph="/// This function produces the return values for process-related functions in the standard library ... " />
+            <marker date="1546818016809" expanded="true" signature="61096:61183" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="61193:61449" ph="/// This function produces the return values for file-related functions in the standard library ... " />
+            <marker date="1546818016809" expanded="true" signature="61506:61603" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="61613:61894" ph="/// Pushes onto the stack the field e from the metatable of the object at index obj and returns the type of the p ... " />
+            <marker date="1546818016809" expanded="true" signature="61953:62057" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="62067:62390" ph="/// Pushes onto the stack the metatable associated with name tname in the registry (see luaL_newmetatable) (nil i ... " />
+            <marker date="1546818016809" expanded="true" signature="62444:62528" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="62538:62901" ph="/// Ensures that the value t[fname], where t is the value at index idx, is a table, and pushes that table onto th ... " />
+            <marker date="1546818016809" expanded="true" signature="62957:63057" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="63067:63298" ph="/// Returns the &quot;length&quot; of the value at the given index as a number; it is equivalent to the '##' operator in Lua ... " />
+            <marker date="1546818016809" expanded="true" signature="63391:63623" ph="/// Loads a buffer as a Lua chunk ... " />
+            <marker date="1546818016809" expanded="true" signature="63700:63837" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="63847:63997" ph="/// ... " />
+            <marker date="1546818016809" expanded="true" signature="64061:64132" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="64142:64294" ph="/// Loads a buffer as a Lua chunk ... " />
+            <marker date="1546818016809" expanded="true" signature="64345:64417" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="64427:64618" ph="/// Loads a string as a Lua chunk ... " />
+            <marker date="1546818016809" expanded="true" signature="64681:64800" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="64810:64961" ph="/// Loads a string as a Lua chunk ... " />
+            <marker date="1546818016809" expanded="true" signature="65011:65075" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="65085:65370" ph="/// Loads a file as a Lua chunk. This function uses lua_load to load the chunk in the file named filename ... " />
+            <marker date="1546818016809" expanded="true" signature="65430:65533" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="65543:65709" ph="/// Loads a file as a Lua chunk. ... " />
+            <marker date="1546818016809" expanded="true" signature="65756:65817" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="65827:65990" ph="/// Creates a new table and registers there the functions in list library.  ... " />
+            <marker date="1546818016809" expanded="true" signature="66041:66129" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="66139:66343" ph="/// Creates a new table with a size optimized to store all entries in the array l (but does not actually store th ... " />
+            <marker date="1546818016809" expanded="true" signature="66399:66463" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="66473:66710" ph="/// Creates a new table to be used as a metatable for userdata ... " />
+            <marker date="1546818016809" expanded="true" signature="66756:66850" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="66860:66964" ph="/// Opens all standard Lua libraries into the given state.  ... " />
+            <marker date="1546818016809" expanded="true" signature="66995:67067" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="67077:67396" ph="/// If the function argument arg is an integer (or convertible to an integer), returns this integer. If this argu ... " />
+            <marker date="1546818016809" expanded="true" signature="67449:67543" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="67553:67823" ph="/// If the function argument arg is a string, returns this string. If this argument is absent or is nil, returns  ... " />
+            <marker date="1546818016809" expanded="true" signature="67879:68001" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="68011:68282" ph="/// If the function argument arg is a string, returns this string. If this argument is absent or is nil, returns  ... " />
+            <marker date="1546818016809" expanded="true" signature="68337:68459" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="68470:68741" ph="/// If the function argument arg is a number, returns this number. If this argument is absent or is nil, returns  ... " />
+            <marker date="1546818016809" expanded="true" signature="68796:68888" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="68898:69145" ph="/// Creates and returns a reference, in the table at index t, for the object at the top of the stack (and pops th ... " />
+            <marker date="1546818016809" expanded="true" signature="69184:69270" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="69280:69678" ph="/// If modname is not already present in package.loaded, calls function openf with string modname as an argument  ... " />
+            <marker date="1546818016809" expanded="true" signature="69765:69898" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="69908:70178" ph="/// Registers all functions in the array l (see luaL_Reg) into the table on the top of the stack (below optional  ... " />
+            <marker date="1546818016809" expanded="true" signature="70251:70348" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="70358:70563" ph="/// Sets the metatable of the object at the top of the stack as the metatable associated with name tname in the r ... " />
+            <marker date="1546818016809" expanded="true" signature="70609:70691" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="70701:70961" ph="/// Test if the value at index is a reference data ... " />
+            <marker date="1546818016809" expanded="true" signature="71046:71469" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="71479:71744" ph="/// Test if the value at index is a nullable value data ... " />
+            <marker date="1546818016809" expanded="true" signature="71835:72161" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="72171:72427" ph="/// Test if the value at index is a value data ... " />
+            <marker date="1546818016809" expanded="true" signature="72509:72638" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="72648:72869" ph="/// Creates and pushes a traceback of the stack L1 ... " />
+            <marker date="1546818016809" expanded="true" signature="72925:72988" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="72998:73304" ph="/// Creates and pushes a traceback of the stack L1 ... " />
+            <marker date="1546818016809" expanded="true" signature="73372:73478" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="73488:73672" ph="/// Returns the name of the type of the value at the given index.  ... " />
+            <marker date="1546818016809" expanded="true" signature="73714:73800" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="73810:74146" ph="/// Releases reference ref from the table at index t (see luaL_ref). The entry is removed from the table, so that ... " />
+            <marker date="1546818016809" expanded="true" signature="74203:74295" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="74305:74504" ph="/// Pushes onto the stack a string identifying the current position of the control at level lvl in the call stack ... " />
+            <marker date="1546818016809" expanded="true" signature="74541:74617" ph="{...}" />
+            <marker date="1546818016809" expanded="true" signature="74635:74809" ph="///  ... " />
+            <marker date="1546818016809" expanded="true" signature="74885:75003" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

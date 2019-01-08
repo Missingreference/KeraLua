@@ -13,6 +13,29 @@ namespace KeraLua
         private readonly Lua _mainState;
 
         /// <summary>
+        /// 
+        /// </summary>
+        public enum HookMask
+        {
+            /// <summary>
+            /// 
+            /// </summary>
+            Call = 1<<0,
+            /// <summary>
+            /// 
+            /// </summary>
+            Return = 1 << 1,
+            /// <summary>
+            /// 
+            /// </summary>
+            Line = 1 << 2,
+            /// <summary>
+            /// 
+            /// </summary>
+            Count = 1 << 3
+        }
+        
+        /// <summary>
         /// Encoding for the string conversions
         /// ASCII by default.
         /// </summary>
@@ -256,7 +279,7 @@ namespace KeraLua
         }
 
         /// <summary>
-        ///  Pushes onto the stack the value t[k], where t is the value at the given index. As in Lua, this function may trigger a metamethod for the "index" event (see §2.4).
+        ///  Pushes onto the stack the value t[k], where t is the value at the given index. As in Lua, this function may trigger a metamethod for the "index" event (see ï¿½2.4).
         /// Returns the type of the pushed value. 
         /// </summary>
         /// <param name="index"></param>
@@ -468,7 +491,7 @@ namespace KeraLua
         public bool IsYieldable => NativeMethods.lua_isyieldable(_luaState) != 0;
 
         /// <summary>
-        /// Push the length of the value at the given index on the stack. It is equivalent to the '#' operator in Lua (see §3.4.7) and may trigger a metamethod for the "length" event (see §2.4). The result is pushed on the stack. 
+        /// Push the length of the value at the given index on the stack. It is equivalent to the '#' operator in Lua (see ï¿½3.4.7) and may trigger a metamethod for the "length" event (see ï¿½2.4). The result is pushed on the stack. 
         /// </summary>
         /// <param name="index"></param>
         public void PushLength(int index) => NativeMethods.lua_len(_luaState, index);
@@ -511,7 +534,7 @@ namespace KeraLua
         }
 
         /// <summary>
-        /// Pops a key from the stack, and pushes a key–value pair from the table at the given index (the "next" pair after the given key).
+        /// Pops a key from the stack, and pushes a keyï¿½value pair from the table at the given index (the "next" pair after the given key).
         /// </summary>
         /// <param name="index"></param>
         /// <returns></returns>
@@ -564,7 +587,7 @@ namespace KeraLua
 
         /// <summary>
         ///  Pushes a new C closure onto the stack. When a C function is created, it is possible to associate 
-        ///  some values with it, thus creating a C closure (see §4.4); these values are then accessible to the function 
+        ///  some values with it, thus creating a C closure (see ï¿½4.4); these values are then accessible to the function 
         ///  whenever it is called. To associate values with a C function, first these values must be pushed onto the 
         ///  stack (when there are multiple values, the first value is pushed first). 
         ///  Then lua_pushcclosure is called to create and push the C function onto the stack, 
@@ -999,7 +1022,7 @@ namespace KeraLua
         }
 
         /// <summary>
-        /// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an integer, or a number or string convertible to an integer (see §3.4.3); otherwise, lua_tointegerx returns 0. 
+        /// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an integer, or a number or string convertible to an integer (see ï¿½3.4.3); otherwise, lua_tointegerx returns 0. 
         /// </summary>
         /// <param name="index"></param>
         /// <returns></returns>
@@ -1010,7 +1033,7 @@ namespace KeraLua
         }
 
         /// <summary>
-        /// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an integer, or a number or string convertible to an integer (see §3.4.3); otherwise, lua_tointegerx returns 0. 
+        /// Converts the Lua value at the given index to the signed integral type lua_Integer. The Lua value must be an integer, or a number or string convertible to an integer (see ï¿½3.4.3); otherwise, lua_tointegerx returns 0. 
         /// </summary>
         /// <param name="index"></param>
         /// <returns></returns>
@@ -1256,7 +1279,7 @@ namespace KeraLua
         }
 
         /// <summary>
-        /// This function is equivalent to lua_yieldk, but it has no continuation (see §4.7). Therefore, when the thread resumes, it continues the function that called the function calling lua_yield. 
+        /// This function is equivalent to lua_yieldk, but it has no continuation (see ï¿½4.7). Therefore, when the thread resumes, it continues the function that called the function calling lua_yield. 
         /// </summary>
         /// <param name="results"></param>
         /// <returns></returns>
@@ -1869,6 +1892,17 @@ namespace KeraLua
         public void Where(int level)
         {
             NativeMethods.luaL_where(_luaState, level);
+        }
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="function"></param>
+        /// <param name="mask"></param>
+        /// <param name="count"></param>
+        public void SetHook(LuaFunction function, HookMask mask, int count)
+        {
+            NativeMethods.lua_sethook(_luaState, function.ToFunctionPointer(), (int)mask, count);
         }
     }
 }
