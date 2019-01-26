@@ -4,13 +4,31 @@
 
 using Foundation;
 [assembly: LinkerSafe]
-
 #endif
 
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle ("KeraLua")]
+#if NETFRAMEWORK
+[assembly: AssemblyTitle ("KeraLua (.NET Framework 4.5)")]
+#elif __ANDROID__
+[assembly: AssemblyTitle ("KeraLua (Xamarin.Android)")]
+#elif NETCOREAPP
+[assembly: AssemblyTitle ("KeraLua (.NET Core)")]
+#elif NETSTANDARD
+[assembly: AssemblyTitle ("KeraLua (.NET Standard)")]
+#elif __TVOS__
+[assembly: AssemblyTitle ("KeraLua (Xamarin.tvOS)")]
+#elif __WATCHOS__
+[assembly: AssemblyTitle ("KeraLua (Xamarin.watchOS)")]
+#elif __IOS__
+[assembly: AssemblyTitle ("KeraLua (Xamarin.iOS)")]
+#elif __MACOS__
+[assembly: AssemblyTitle ("KeraLua (Xamarin.Mac)")]
+#else
+[assembly: AssemblyTitle ("KeraLua (.NET Framework)")]
+#endif
+
 [assembly: AssemblyDescription ("Binding library for native Lua")]
 [assembly: AssemblyCompany ("NLua")]
 [assembly: AssemblyProduct ("KeraLua")]
@@ -22,15 +40,6 @@ using Foundation;
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
 
 [assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyInformationalVersion("0.1.0-refactor-lua53.1+151.Branch.refactor_lua53.Sha.ae132902650673d9fb13d49123e72892db94aa55")]
+[assembly: AssemblyInformationalVersion("0.1.0+155.Branch.master.Sha.2bffe65059140b063c0ca22a830593629f64b2cb")]
 [assembly: AssemblyFileVersion("0.1.0.0")]
-
-
-
-//[assembly: AssemblyDelaySign(false)]
-
-// The following attributes are used to specify the signing key for the assembly, 
-// if desired. See the Mono documentation for more information about signing.
-
-//[assembly: AssemblyKeyFile("")]
 

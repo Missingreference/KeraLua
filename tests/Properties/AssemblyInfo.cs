@@ -35,4 +35,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("0.1.0.0")]
 [assembly: AssemblyFileVersion("0.1.0.0")]
 
-[assembly: AssemblyInformationalVersion("0.1.0-refactor-lua53.1+151.Branch.refactor_lua53.Sha.ae132902650673d9fb13d49123e72892db94aa55")]
+[assembly: AssemblyInformationalVersion("0.1.0+155.Branch.master.Sha.2bffe65059140b063c0ca22a830593629f64b2cb")]

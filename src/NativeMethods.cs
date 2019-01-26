@@ -16,6 +16,7 @@ using lua_Hook = System.IntPtr;
 using lua_Integer = System.Int64;
 using lua_Number = System.Double;
 using lua_Number_ptr = System.IntPtr;
+using lua_Debug = System.IntPtr;
 
 namespace KeraLua
 {
@@ -41,7 +42,7 @@ namespace KeraLua
 
 #pragma warning disable IDE1006 // Naming Styles
 
-		[DllImport (LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
+        [DllImport (LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
         internal static extern int lua_absindex(lua_State luaState, int idx);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
@@ -86,7 +87,7 @@ namespace KeraLua
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         internal static extern int lua_getfield(lua_State luaState, int index, string k);
 
-        [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
+        [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         internal static extern int lua_getglobal(lua_State luaState, string name);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
@@ -102,16 +103,16 @@ namespace KeraLua
         internal static extern int lua_geti(lua_State luaState, int index, long i);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
-        internal static extern int lua_getinfo(lua_State luaState, string what, ref LuaDebug ar);
+        internal static extern int lua_getinfo(lua_State luaState, string what, lua_Debug ar);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
-        internal static extern string lua_getlocal(lua_State luaState, ref LuaDebug ar, int n);
+        internal static extern string lua_getlocal(lua_State luaState, lua_Debug ar, int n);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
         internal static extern int lua_getmetatable(lua_State luaState, int index);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
-        internal static extern int lua_getstack(lua_State luaState, int level, ref LuaDebug n);
+        internal static extern int lua_getstack(lua_State luaState, int level, lua_Debug n);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
         internal static extern int lua_gettable(lua_State luaState, int index);
@@ -248,7 +249,7 @@ namespace KeraLua
         internal static extern void lua_seti(lua_State luaState, int index, long n);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
-        internal static extern string lua_setlocal(lua_State luaState, ref LuaDebug ar, int n);
+        internal static extern string lua_setlocal(lua_State luaState, lua_Debug ar, int n);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
         internal static extern void lua_setmetatable(lua_State luaState, int objIndex);
